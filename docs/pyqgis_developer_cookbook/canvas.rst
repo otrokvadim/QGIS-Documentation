@@ -422,7 +422,7 @@ described before to show the selected rectangle as it is being defined.
             self.startPoint.y() == self.endPoint.y()):
         return None
 
-        return QgsRectangle(self.startPoint, self.endPoint)
+      return QgsRectangle(self.startPoint, self.endPoint)
 
     def deactivate(self):
       QgsMapTool.deactivate(self)
